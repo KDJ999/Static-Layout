@@ -1,21 +1,64 @@
-element.style {
+html {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(85, 38, 85);
 
-}
-homepage.content{
+  }
+nav {
+      font-size: 50px;
+  }
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+h1 {
+    font-size: 50px;
     text-align: center;
-    position: relative;
-    z-index: 3;
-}
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 3px 3px 1p white;
+  }
 
-adding-left: 30px;
-padding-right: 30px;
-    max-width: 1200px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(85, 38, 85);
+  }
+  
+  li {
+    background-color: rgb(85, 38, 85);
+    float: left;
+    display: block;
+    padding: 8px;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(85, 38, 85);
+  }
+  
+  p, li {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+  }
+  
+  body {
+    background-color: rgb(40, 40, 116);
+  }
+  .center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-
-div{
-    display: block;
-}
-body {
-    
-}
+    width: 50%;
+  }
